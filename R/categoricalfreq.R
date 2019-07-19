@@ -20,7 +20,6 @@ categoricalfreq1 <- function(data, target_var)
     j = data.frame()
     k = data.frame()
     l = data.frame()
-    cat('\nFrequency of Categories for varible',categorical_columns[i],'is sent to the excel')
     j = as.data.frame(table(d0[categorical_columns[i]]))
     k = as.data.frame(table(d1[categorical_columns[i]]))
     m = k[,2]
