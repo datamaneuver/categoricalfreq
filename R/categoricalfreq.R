@@ -25,7 +25,7 @@ categoricalfreq <- function(data, target_var)
     k = as.data.frame(table(d1[categorical_columns[i]]))
     m = k[,2]
     l = cbind(j,m)
-    colnames(l) <- c('category','freq count for non events', 'freq count for events')
+    colnames(l) <- c('category','distribution of non events', 'distribution of events')
     write.xlsx(l, file="categorical_variables.xlsx", sheetName=categorical_columns[i],append=TRUE, row.names=FALSE)
   }
 
