@@ -1,0 +1,11 @@
+Package: categoricalfreq
+Type: Package
+Title: Freq count of all the categorical variables 
+Version: 0.1.0
+Author: Sandeep Marpini
+Maintainer: Sandeep Marpini <sandeepmarpini@gmail.com>
+Description: The function gives the freq count of all the categorical variable grouped by the binary target variable
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports : xlsx
