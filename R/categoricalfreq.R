@@ -1,5 +1,5 @@
 
-categoricalfreq1 <- function(data, target_var)
+categoricaldistribution <- function(data, target_var)
 {
   d0 <- data[data[target_var] == 0, ]
   d1 <- data[data[target_var] == 1, ]
